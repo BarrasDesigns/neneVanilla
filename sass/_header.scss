@@ -1,0 +1,22 @@
+/* CUSTOM FOTO */
+.objectfit {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .objectfit>.fotoNene {
+    width: 11rem;
+    height: 11rem;
+    object-fit: cover;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: black;
+    border: 3px solid #b20000;
+  }
+  
+  .nombre_puesto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
